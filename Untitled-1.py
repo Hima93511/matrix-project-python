@@ -1,3 +1,4 @@
+# code by himanshu garg 
 def forEvenNumber(n):
     arr = [[(n * y) + x + 1 for x in range(n)] for y in range(n)]
     for i in range(0, n // 4):
